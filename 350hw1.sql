@@ -53,7 +53,7 @@ Insert into books values ('9781750623295', 'Compass of Zen', 'Sahn', 'Seung', 'N
 Insert into books values ('9780861713943', 'Art of Just Sitting', 'Loori', 'John', '2002', 'Wisdom', 256);
 Insert into books values ('9788129118332', 'Essential Dogen', 'Tanahashi', 'Kazuaki', '2013', 'Shambhala', 224);
 Insert into books values ('9781419638206', 'Shobogenzo', 'Nishijima', 'Gudo', '2006', 'BookSurge', 334);
-Insert into books values ('9780596526849', 'Head First SQL', 'OÕBeighley', 'Lynn', 'Null', 'OÕReilly', 610);
+Insert into books values ('9780596526849', 'Head First SQL', 'OÃ•Beighley', 'Lynn', 'Null', 'OÃ•Reilly', 610);
 
 -- Question 7
 
@@ -66,11 +66,11 @@ SELECT Title, Publisher FROM books WHERE Publisher != 'Shambhala';
 --d:	
 select title from books where title like '%o%';
 --e:	
-select title from books where author_last_name = 'OÕBeighley';
+select title from books where author_last_name = 'OÃ•Beighley';
 --f:	
 SELECT Title, author_first_name, author_last_name FROM books WHERE Pub_Date='Null';
 --g:	
-SELECT Title, Publisher FROM books WHERE Publisher!='Shambhala' and Publisher!='Wisdom' and Publisher!='OÕReilly';
+SELECT Title, Publisher FROM books WHERE Publisher!='Shambhala' and Publisher!='Wisdom' and Publisher!='OÃ•Reilly';
 
 -- Question 8
 
